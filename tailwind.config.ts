@@ -19,7 +19,9 @@ const config: Config = {
         orange: "#F9995D",
         secondary: "#292E3D",
         blue: "#2947A9",
-        bg: "#F6F8F7",
+      },
+      backgroundImage: {
+        hero: "url('/hero.png')",
       },
     },
   },

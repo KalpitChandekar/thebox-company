@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center max-w-6xl mx-auto my-6">
+    <div className="flex justify-between items-center max-w-6xl mx-auto my-2">
       <div className="flex gap-1 items-center cursor-pointer">
         <Image src="/symbol.png" alt="logo" width={29} height={36} />
         <Image src="/box.png" alt="logo" width={80} height={17} />
