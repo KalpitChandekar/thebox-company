@@ -22,6 +22,7 @@ const config: Config = {
       },
       backgroundImage: {
         hero: "url('/hero.png')",
+        Consultation: "url('/consultation-bg.png')",
       },
     },
   },

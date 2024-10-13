@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Consultation from "@/components/Consultation";
 import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -14,6 +15,7 @@ const page = () => {
       <About />
       <Service />
       <Experience />
+      <Consultation />
     </div>
   );
 };
