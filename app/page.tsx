@@ -4,6 +4,7 @@ import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import OurReputation from "@/components/OurReputation";
+import Projects from "@/components/Projects";
 import Service from "@/components/Service";
 
 const page = () => {
@@ -16,6 +17,7 @@ const page = () => {
       <Service />
       <Experience />
       <Consultation />
+      <Projects />
     </div>
   );
 };

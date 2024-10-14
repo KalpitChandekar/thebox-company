@@ -1,6 +1,6 @@
 const Consultation = () => {
   return (
-    <div className="bg-Consultation bg-cover max-w-7xl my-40 mx-auto">
+    <div className="bg-Consultation bg-cover max-w-7xl mx-auto">
       <div className="max-w-6xl mx-auto flex justify-between items-center py-20">
         <div className="space-y-4 text-white">
           <h1 className="text-3xl font-semibold">
