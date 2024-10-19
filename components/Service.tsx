@@ -28,11 +28,11 @@ const Card = ({
 const Service = () => {
   return (
     <div className="bg-[#F6F8F7] max-w-7xl mx-auto">
-      <div className="max-w-6xl mx-auto my-40 py-10 space-y-28">
+      <div className="px-4 md:px-0 max-w-6xl mx-auto my-40 py-10 space-y-28">
         <h1 className="text-center font-semibold text-3xl text-secondary">
           Services
         </h1>
-        <div className="grid grid-cols-3 gap-10 max-w-4xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-10 max-w-4xl mx-auto">
           <Card
             title="construction"
             image="/construction.png"
