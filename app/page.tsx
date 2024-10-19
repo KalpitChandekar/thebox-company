@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Consultation from "@/components/Consultation";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import OurReputation from "@/components/OurReputation";
@@ -20,6 +21,7 @@ const page = () => {
       <Consultation />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 };
