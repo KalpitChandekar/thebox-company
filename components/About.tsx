@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="mx-auto max-w-6xl my-40 relative">
+    <div className="mx-auto max-w-6xl my-40 relative px-4 md:px-0">
       <div className="">
         <Image src="/about.png" alt="About Us" width={691} height={520} />
       </div>
 
-      <div className="space-y-8 absolute top-16 right-60 p-6 w-[28%] bg-blue text-white">
+      <div className="space-y-8 md:absolute top-16 right-60 p-6 md:w-[28%] bg-blue text-white">
         <h1 className="font-semibold text-lg">About us</h1>
         <div className="text-sm space-y-4">
           <p>
