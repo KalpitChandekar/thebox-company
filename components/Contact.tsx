@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="max-w-7xl bg-[#F6F8F7] mx-auto">
-      <div className="max-w-xl text-center mx-auto py-24 space-y-4">
+      <div className="max-w-xl md:px-0 px-4 text-center mx-auto py-24 space-y-4">
         <h1 className="text-center font-semibold text-3xl text-secondary">
           What can us do for you?
         </h1>
