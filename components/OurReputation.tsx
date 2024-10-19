@@ -6,7 +6,7 @@ const OurReputation = () => {
       <h1 className="text-center font-semibold text-3xl text-secondary">
         Our Reputation
       </h1>
-      <div className="flex justify-between">
+      <div className="flex md:flex-row flex-col px-4 md:px-0 md:gap-0 gap-10 justify-between">
         <div className="space-y-2 py-4 px-3 border-2 border-[#E0E3EB]">
           <Image src="/icon1.png" width={30} height={30} alt="icon" />
           <h1 className="font-semibold text-lg text-secondary">
