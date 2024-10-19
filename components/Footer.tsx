@@ -23,7 +23,30 @@ const Footer = () => {
           </div>
         </div>
 
-        <div></div>
+        <div className="space-y-8">
+          <div className="space-y-2">
+            <p className="text-blue font-medium">NEWSLETTER:</p>
+            <div className="flex gap-2">
+              <input
+                type="text"
+                placeholder="Enter your email"
+                className="px-4 border border-gray rounded-md"
+              />
+              <button className="bg-orange text-white px-4 h-10 rounded-md">
+                Subscribe
+              </button>
+            </div>
+          </div>
+
+          <div className="space-y-2">
+            <p className="text-blue font-medium">SOCIAL:</p>
+            <div className="flex gap-4">
+              <Image src="/facebook.png" alt="logo" width={30} height={30} />
+              <Image src="/twitter.png" alt="logo" width={30} height={30} />
+              <Image src="/linkedin.png" alt="logo" width={30} height={30} />
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="bg-blue py-4">
