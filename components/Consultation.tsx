@@ -1,8 +1,8 @@
 const Consultation = () => {
   return (
-    <div className="bg-Consultation bg-cover max-w-7xl mx-auto">
-      <div className="max-w-6xl mx-auto flex justify-between items-center py-20">
-        <div className="space-y-4 text-white">
+    <div className="bg-Consultation bg-cover bg-center max-w-7xl mx-auto">
+      <div className="max-w-6xl md:px-0 px-4 mx-auto flex md:flex-row flex-col md:gap-0 gap-10 justify-between items-center py-6 md:py-20">
+        <div className="space-y-4 text-white text-center md:text-start">
           <h1 className="text-3xl font-semibold">
             Free consultation with exceptional quality
           </h1>
