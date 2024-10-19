@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <div className="my-40 max-w-5xl mx-auto flex">
-      <div className="w-2/3 relative">
+    <div className="my-40 max-w-5xl md:px-0 px-4 mx-auto flex">
+      <div className="hidden md:flex md:w-2/3 relative">
         <div className="py-2 z-10 bg-white absolute top-0 right-40 px-4 w-40 rounded-sm shadow-xl">
           <h1 className="text-6xl font-bold text-secondary">84</h1>
           <div className="flex items-center gap-2">
@@ -61,7 +61,7 @@ const Experience = () => {
           />
         </div>
       </div>
-      <div className="w-1/3 space-y-10">
+      <div className="md:w-1/3 space-y-10">
         <h1 className="text-5xl font-semibold text-blue">
           30 Years Experience
         </h1>
