@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="max-w-5xl mx-auto py-40 space-y-4">
+    <div className="max-w-5xl md:px-0 px-4 mx-auto py-40 space-y-4">
       <h1 className="font-semibold text-3xl text-secondary">Projects</h1>
-      <div className="flex">
+      <div className="flex md:flex-row flex-col gap-8 md:gap-0">
         <div className="flex gap-2">
           <div className="h-6 w-1 bg-blue"></div>
           <div className="text-[#C2C7D6] space-y-2">
@@ -15,8 +15,8 @@ const Projects = () => {
             <h1 className="">Other</h1>
           </div>{" "}
         </div>
-        <div className="ml-auto space-y-8">
-          <div className="grid grid-cols-2 gap-8">
+        <div className="md:ml-auto space-y-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <div>
               <Image
                 src="/project1.png"
@@ -79,9 +79,9 @@ const Projects = () => {
               <MoveLeft />
               Back
             </button>
-            <div className="w-3 h-3 bg-gray rounded-full"></div>
+            <div className="w-3 h-3 bg-gray hidden md:flex rounded-full"></div>
             <div className="w-3 h-3 bg-blue rounded-full"></div>
-            <div className="w-3 h-3 bg-gray rounded-full"></div>
+            <div className="w-3 h-3 bg-gray hidden md:flex rounded-full"></div>
             <button className="flex items-center justify-center gap-2 py-2 w-40 bg-secondary">
               Next
               <MoveRight />
