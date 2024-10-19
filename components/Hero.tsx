@@ -3,7 +3,7 @@ import { MoveLeft, MoveRight } from "lucide-react";
 const Hero = () => {
   return (
     <div className="bg-hero max-w-7xl mx-auto h-[556px] bg-cover flex items-center relative">
-      <h1 className="text-6xl font-medium pl-16 max-w-lg text-secondary">
+      <h1 className="md:text-6xl text-5xl font-medium md:pl-16 px-4 md:px-0 max-w-lg text-secondary">
         Building things is our mission.
       </h1>
 
